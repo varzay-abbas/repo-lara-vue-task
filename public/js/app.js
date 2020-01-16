@@ -1969,6 +1969,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1990,8 +1991,8 @@ __webpack_require__.r(__webpack_exports__);
   created: function created() {
     this.fetchProductList();
   },
-  mounted: function mounted() {
-    alert(this.category); //this.fetchProductList();
+  mounted: function mounted() {//alert(this.category);
+    //this.fetchProductList();
   },
   methods: {
     fetchProductList: function fetchProductList() {
@@ -39633,7 +39634,7 @@ var render = function() {
       ]
     ),
     _vm._v(" "),
-    _c("h4", [_vm._v("All Products")]),
+    _c("h4", [_vm._v("All Products (" + _vm._s(_vm.category) + ")")]),
     _vm._v(" "),
     _vm.loading
       ? _c("div", { staticClass: "row text-center" }, [_c("rotate-square2")], 1)
@@ -55929,8 +55930,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\repo-lara-vue-task\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\repo-lara-vue-task\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! I:\Sadiq\repo-lara-vue-task\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! I:\Sadiq\repo-lara-vue-task\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

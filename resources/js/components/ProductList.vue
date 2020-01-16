@@ -13,7 +13,8 @@
                 </span>
             </div>
         </form>
-        <h4>All Products</h4>
+        <h4>All Products ({{category}})</h4>
+
         <div class="row text-center" v-if="loading">
             <rotate-square2></rotate-square2>
         </div>
@@ -59,7 +60,7 @@
             this.fetchProductList();
         },
         mounted () {
-            alert(this.category);
+            //alert(this.category);
             //this.fetchProductList();
 
         },

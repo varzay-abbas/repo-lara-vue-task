@@ -40,6 +40,12 @@ class Repository implements RepositoryInterface
         return $this->model->destroy($id);
     }
 
+    // remove record from the database
+    public function find($id)
+    {
+        return $this->model->findOrFail($id);
+    }
+
     // show the record with the given id
     public function show($id)
     {
