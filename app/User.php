@@ -11,6 +11,7 @@ class User extends Authenticatable
 
     const ADMIN_TYPE = 'admin';
     const DEFAULT_TYPE = 'default';
+    
 
     /**
      * The attributes that are mass assignable.
@@ -18,7 +19,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'type'
     ];
 
     /**
