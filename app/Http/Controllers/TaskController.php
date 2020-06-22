@@ -28,6 +28,8 @@ class TaskController extends Controller
            'body' => 'required|max:500'
        ]);
 
+       
+
         // create record and pass in only fields that are fillable
         return $this->model->create($request->only($this->model->getModel()->fillable));
     }
