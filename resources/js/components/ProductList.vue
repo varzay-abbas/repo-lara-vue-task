@@ -2,6 +2,9 @@
     <div class='row'>
         <h1>Our Products (Dev Version)</h1>
         <h4>New Products</h4>
+
+
+        
         <form action="#" @submit.prevent="createProduct()">
             <div class="input-group">
                 <input v-model="product.name" type="text" name="product" class="form-control" autofocus>
