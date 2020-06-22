@@ -1,6 +1,6 @@
 <template>
     <div class='row'>
-        <h1>My Products</h1>
+        <h1>Our Products</h1>
         <h4>New Product</h4>
         <form action="#" @submit.prevent="createProduct()">
             <div class="input-group">
